@@ -1,0 +1,5 @@
+@author Sean Lan
+Hi, I'm Sean Lan.
+Sean is my English name.
+I love programming and coding.
+Happy day!
