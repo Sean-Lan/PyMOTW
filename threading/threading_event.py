@@ -21,7 +21,7 @@ def wait_for_event_timeout(e, t):
         if event_is_set:
             logging.debug('processing event')
         else:
-            logging.debug('dong other work')
+            logging.debug('doing other work')
 
 e = threading.Event()
 t1 = threading.Thread(name='block',

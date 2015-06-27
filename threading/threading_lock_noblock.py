@@ -12,18 +12,18 @@ def lock_holder(lock):
         lock.acquire()
         try:
             logging.debug('Holding')
-            time.sleep(5)
+            time.sleep(0.5)
         finally:
             logging.debug('Not holding')
             lock.release()
-        time.sleep(5)
+        time.sleep(0.5)
     return
 
 def worker(lock):
     logging.debug('Starting')
     num_tries = 0
     num_acquires = 0
-    while num_acquires < 30:
+    while num_acquires < 3:
         time.sleep(1)
         logging.debug('Trying to acquire')
         have_it = lock.acquire(0)
