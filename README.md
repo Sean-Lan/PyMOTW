@@ -6,3 +6,6 @@ Reference from [**PyMOTW**](http://pymotw.com)
 
 ##Interprocess Communication and Networking
 [**`subprocess - Work with additional processes`**](./subprocess/subprocess-tutorial.ipynb)
+
+##Optional Operating System Services
+[**`threading - Manage concurrent threads`**](./threading/threading-tutorial.ipynb)
