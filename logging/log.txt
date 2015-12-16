@@ -1,0 +1,5 @@
+ERROR:root:exception_log
+Traceback (most recent call last):
+  File "logging_exception_example.py", line 7, in <module>
+    raise Exception, 'this is an exception'
+Exception: this is an exception
