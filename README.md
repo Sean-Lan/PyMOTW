@@ -12,3 +12,6 @@ Reference from [**PyMOTW**](http://pymotw.com)
 
 ##File Formats
 [**`csv - Comma-separated value files`**](./csv/csv.ipynb)
+
+##Data Types
+[**`collections – Container data types`**](./Collections)
